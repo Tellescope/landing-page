@@ -1,0 +1,46 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+
+body {
+    font-family: "Inter UI", sans-serif;
+    color: #1F223E;
+}
+
+.landing {
+    text-align: center;
+    margin: 3rem 2rem;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.subtitle {
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    border: none;
+    background: #0058DB;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    transition: all .2s ease-in-out; 
+  }
+  
+  .btn:hover {
+    background: #2b21af;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  }
+  
+}
